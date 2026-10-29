@@ -59,7 +59,7 @@ def main():
             try:
                 my_queue.enqueue("A")
                 print(f"Dequeued: {my_queue.dequeue()}")
-                my_queue.dequeue()  # Triggers underflow error
+                my_queue.dequeue()  
             except Exception as err:
                 print(f"Error caught: {err}")
                 
